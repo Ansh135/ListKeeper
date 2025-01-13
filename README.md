@@ -1,15 +1,17 @@
 # List Keeper
 
-List Keeper is a web application that helps users categorize and organize their tasks efficiently by creating multiple lists, consisting of tasks. It provides a user-friendly interface for creating, managing, and prioritizing tasks through lists. The application is fully secure. With authentication and authorization features, the lists of tasks are completely protected, ensuring that only authorized users can access their respective lists. 
+List Keeper is a web application that helps users categorize and organize their tasks efficiently by creating multiple lists, consisting of tasks. It provides a user-friendly interface for creating, managing, and prioritizing tasks through lists. The application is fully secure. With authentication and authorization features, the lists of tasks are completely protected, ensuring that only authorized users can access their respective lists.
 
 ## Features
 
 - **Task Organization:** Create, edit, and delete tasks effortlessly. The tasks are grouped into lists for better organization.
+- **Flash messages:** Flash messages for interactive feedback.
+- **User-Friendly Interface**: Clean and easy-to-navigate UI.
+- **Dynamic List Management**: Add, edit, and delete tasks effortlessly.
 - **Authentication:** User can register on our platform effortlessly through the interactive UI. Secure user authentication ensures that only authorized users can access and manage their tasks.
 - **Authorization:** Users can only view and manage their own lists, ensuring data privacy and security.
 - **Cross-Platform Access:** Access your tasks from any device with internet connectivity.
 - **Security:** Users data is made fully secure using middlewares, so that no one can breach data through various platforms.
-- **Flash messages:** Flash messages for interactive feedback.
 
 
 ## Technologies Used
@@ -42,7 +44,7 @@ npm install
 ```
 
 4. Environment Variables:
-If you do not have mongoDB installed on your system, create a .env file for sensitive information like database credentials of mongoDB Atlas, and ensure it is included in your .gitignore file.
+   If you do not have mongoDB installed on your system, create a .env file for sensitive information like database credentials of mongoDB Atlas, and ensure it is included in your .gitignore file.
 
 5. Start the application:
 
@@ -53,6 +55,7 @@ node app.js
 6. Open your web browser and navigate to `http://localhost:3000` to access ListKeeper.
 
 ## Contributing
+
 Contributions are welcome! If you'd like to contribute to List Keeper, please make your changes and create a pull request.
 
 ## Acknowledgements
